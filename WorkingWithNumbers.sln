@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithNumbers", "WorkingWithNumbers\WorkingWithNumbers.csproj", "{7C32EDB4-4DFF-4655-AFD7-DDDAC2457CF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithNumbers", "WorkingWithNumbers\WorkingWithNumbers.csproj", "{7C32EDB4-4DFF-4655-AFD7-DDDAC2457CF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithText", "WorkingWithText\WorkingWithText.csproj", "{370345B1-5E17-454E-BAA1-1807141DEB1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithText", "WorkingWithText\WorkingWithText.csproj", "{370345B1-5E17-454E-BAA1-1807141DEB1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithLists", "WorkingWithLists\WorkingWithLists.csproj", "{D571D943-7721-4F52-9AC5-95470DF1F94D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithDictionaries", "WorkingWithDictionaries\WorkingWithDictionaries.csproj", "{BD5CA877-FB04-47B9-8229-ABF05C2FEE69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithNetworkResources", "WorkingWithNetworkResources\WorkingWithNetworkResources.csproj", "{5909180E-3864-46E7-A2AD-E635565D72F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithReflection", "WorkingWithReflection\WorkingWithReflection.csproj", "{84DA490B-E5F2-4E04-9893-2D356AE190DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internationalization", "Internationalization\Internationalization.csproj", "{483FDDE8-CFA6-4CD4-8A63-5A778525E810}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{370345B1-5E17-454E-BAA1-1807141DEB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{370345B1-5E17-454E-BAA1-1807141DEB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{370345B1-5E17-454E-BAA1-1807141DEB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D571D943-7721-4F52-9AC5-95470DF1F94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D571D943-7721-4F52-9AC5-95470DF1F94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D571D943-7721-4F52-9AC5-95470DF1F94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D571D943-7721-4F52-9AC5-95470DF1F94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5CA877-FB04-47B9-8229-ABF05C2FEE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5CA877-FB04-47B9-8229-ABF05C2FEE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5CA877-FB04-47B9-8229-ABF05C2FEE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5CA877-FB04-47B9-8229-ABF05C2FEE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5909180E-3864-46E7-A2AD-E635565D72F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5909180E-3864-46E7-A2AD-E635565D72F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5909180E-3864-46E7-A2AD-E635565D72F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5909180E-3864-46E7-A2AD-E635565D72F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84DA490B-E5F2-4E04-9893-2D356AE190DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84DA490B-E5F2-4E04-9893-2D356AE190DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84DA490B-E5F2-4E04-9893-2D356AE190DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84DA490B-E5F2-4E04-9893-2D356AE190DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{483FDDE8-CFA6-4CD4-8A63-5A778525E810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483FDDE8-CFA6-4CD4-8A63-5A778525E810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483FDDE8-CFA6-4CD4-8A63-5A778525E810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483FDDE8-CFA6-4CD4-8A63-5A778525E810}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
